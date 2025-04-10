@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Zelda;
+    src: url(fonts/Zelda.otf)
+  }
+html{
+  width: 100%;
+  height: -webkit-fill-available;
+}
+body{
+  background-image: url("../img/mato.webp");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  margin: 0;
+}
+p{
+  font-family: Zelda;font-size: 200%;margin-block: 3px;
+}
+.bordanaimg{
+  border: 5px solid rgb(56, 56, 56); background-color: rgb(88, 88, 88);
+  width: 25%;
+  display: inline-block;
+}
+.bordanaimg img{
+  width: 100%;
+}
+.imagem{
+    border: 5px solid rgb(75, 75, 75);background-color: green;
+    width: 40%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.imagem img{
+  width: 100%;
+}
+.vid{
+  border: 3px solid rgb(61, 61, 60); background-color: rgb(59, 59, 59);
+  width: 480%; 
+  width: 560px; 
+  font-size: 212%;
+  display: inline-block;
+  
+}
+.til {
+    border: 3px solid rgb(114, 59, 28); background-color: rgb(153, 94, 40);
+    width: 520%; 
+    width: 920px; 
+    font-size: 212%;
+    display: inline-block;
+    
+  }
+.til a{
+  display: inline-block;
+  vertical-align: top;
+    width: 100%;
+    
+}
+.zelda-animacao{
+  width: 110px;
+  display: inline-block;
+  float: right;
+  margin-right: 70px;
+
+}
+.zelda-animacao img{
+  width: 140px;
+
+}
+
+h1{
+    font-size: 30px ;color:rgb(187, 19, 19);font-family: Zelda;
+  }
+a{
+    font-family: Zelda;
+  }
+h2{
+    font-family: Zelda;font-size: 25px;margin-block: 4px;
+  }

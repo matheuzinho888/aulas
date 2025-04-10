@@ -1,0 +1,90 @@
+body, ul,li,p{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+.cabecario{
+    background-color: rgb(2, 1, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecario img{
+    width: 200px;
+    margin: 10px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    color: white;
+    display: block;
+    padding: 10px; 
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+}
+.principal .chamada img{
+    width: 600px;
+    height: 400px;
+}
+.artigo{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-content: space-between;
+}
+.artigo .secao.secao1{
+    width: 100%;
+    
+}
+.artigo .secao.secao2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.artigo .secao.secao2 .cont{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.artigo.secao.secao2 .cont img{
+    height: 20%;
+}
+.artigo .secao.secao3{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.artigo .secao.secao3 .con{
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+}
+.artigo.secao.secao3 .con img{
+    height: 20%;
+}
